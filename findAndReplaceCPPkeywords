@@ -1,0 +1,1 @@
+find ./Source/ -type f \( -iname \*.cpp -o -iname \*.h \) -exec sed -i 's/ErrorLog::WriteToFile/Log::Write/g' {} \;
